@@ -2,13 +2,13 @@ import React from 'react'
 
 const SignUp = () => {
   return (
-    <div className='signUp rounded bg-white flex justify-center items-center  h-svh max-w-[1280px] mx-auto my-12'>
-      <div className='wrapper shadow-md border border-gray-50  flex   '>
+    <div className='signUp px-4  lg:px-12  rounded bg-white flex justify-center  h-full max-w-[1280px] mx-auto my-16'>
+      <div className='wrapper shadow-md border border-gray-50  lg:flex-row flex flex-col  '>
       <div className='left-image  z-10 '>
-      <img src='/signUp.webp' className='w-[500px] h-full  object-cover' ></img>
+      <img src='/signUp.webp' className='w-[800px] h-full  object-cover' ></img>
       </div>
 
-      <div className="right-form flex flex-col gap-4  z-[20] p-12  w-[70%] rounded-l-3xl  ">
+      <div className="right-form flex flex-col gap-4  z-[20] sm:p-10 lg:p-16 p-4  lg:w-[70%] rounded-l-3xl  ">
             <div className="top-heading flex flex-col items-center justify-center gap-4">
             <div className='icon w-4'><img src="/Logo.webp" alt="icon" /></div>
                 <h3 className='text-2xl font-semibold'>Create An Account</h3>
