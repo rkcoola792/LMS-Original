@@ -5,7 +5,8 @@ import SignUp from './Components/SignUp/SignUp'
 const App = () => {
   return (
     <div className=' font-DM'>
-      <SignUp></SignUp>
+      {/* <SignUp></SignUp> */}
+      <SignIn></SignIn>
       {/* <Footer></Footer> */}
     </div>
   )
