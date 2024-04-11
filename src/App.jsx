@@ -1,9 +1,12 @@
 import React from 'react'
+import SignIn from './Components/SignIn/SignIn'
+import SignUp from './Components/SignUp/SignUp'
 
 const App = () => {
   return (
-    <div className='text-3xl'>
-      App
+    <div className=' font-DM'>
+      <SignUp></SignUp>
+      {/* <Footer></Footer> */}
     </div>
   )
 }
